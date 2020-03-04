@@ -1,6 +1,6 @@
 # Mars Rover Tech Challenge
 
-### Background
+## Background
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 
@@ -14,7 +14,7 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
-#### Input:
+### Input:
 
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are assumed to be 0,0.
 
@@ -34,7 +34,7 @@ LMLMLMLMM
 
 3 3 E
 
-#### Output:
+### Output:
 
 The output for each rover should be its final co-ordinates and heading.
 
@@ -45,3 +45,59 @@ MMRMMRMRRM
 1 3 N
 
 5 1 E
+
+## Solution
+
+This solution addresses the challenge specified above in 5 projects:
+
+- MRTC.Library (MRTC.Library.dll)
+  
+  The core library with the business logic. The library can be included in many types of projects to suite any architecture.
+  
+- MRTC.Library.Tests
+
+  Unit tests for the library
+  
+- MRTC.CommandLineInterface (mrtc-cli.exe)
+
+  A command line utility that wraps the core library and presents a command line oriented user interface.
+  
+  Has no dependencies
+  
+  Use `mrtc-cli -h` option for help 
+
+- MRTC.TelnetServer (mrtc-telnet-server.exe)
+
+  A telnet server that wraps the core library and presents a telnet protocol user interface
+  
+  Runs on `localhost:5555`
+  
+  Connect with telnet client. Telnet client can connect if this is running.
+
+- MRTC.RestApiServer (mrtc-web-api.exe)
+
+  A web server that wraps the core library and presents an HTTP REST oriented application programming interface.
+  
+  Runs on `http://localhost:7777`
+  
+- MRTC.WebClient (mrtc-web-client.exe)
+
+  A web server that presents a user friendly graphical user interface which interfaces with the REST API to make use on the features provided in the core library
+  
+  Runs on `http://localhost:8888`
+  
+  Use any browser. RestApiServer must be running.
+  
+## Running the solution
+
+Go to [releases](https://github.com/FortuneN/mars-rover-tech-challenge/releases) and download the latest zip file and extract
+
+The zip file contains the items described above.
+
+You can run each by simply double-clicking.
+
+No authentication is required.
+
+### Requirements
+- .Net Framework 4.8 (dotnet-framework-installer-48.exe)
+- .Net Core 3.0 (dotnet-runtime-3.0.0-win-x64.exe + aspnetcore-runtime-3.0.0-win-x64.exe + windowsdesktop-runtime-3.0.0-win-x64.exe)
