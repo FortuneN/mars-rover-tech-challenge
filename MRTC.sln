@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRTC.Library", "MRTC.Library\MRTC.Library.csproj", "{8E67BC12-3B2C-4A08-98DC-0CB6AF6B367D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRTC.Library.Tests", "MRTC.Library.Tests\MRTC.Library.Tests.csproj", "{46A6C10E-3474-41DC-85CB-A4915411019B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTRC.TelnetServer", "MTRC.TelnetServer\MTRC.TelnetServer.csproj", "{A12F38B4-7E9F-4A27-835A-394E439A6F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRTC.CommandLineInterface", "MRTC.CommandLineInterface\MRTC.CommandLineInterface.csproj", "{5A7A3E15-7619-46B5-86BC-5F2C55CBEB08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRTC.RestApiServer", "MRTC.RestApiServer\MRTC.RestApiServer.csproj", "{9716F3F0-1A6F-48F1-B7A0-BBE60E63573B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRTC.WebClient", "MRTC.WebClient\MRTC.WebClient.csproj", "{8C1A9C59-0E7C-40B6-8C6F-0FA40DF6EEA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E67BC12-3B2C-4A08-98DC-0CB6AF6B367D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E67BC12-3B2C-4A08-98DC-0CB6AF6B367D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E67BC12-3B2C-4A08-98DC-0CB6AF6B367D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E67BC12-3B2C-4A08-98DC-0CB6AF6B367D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A6C10E-3474-41DC-85CB-A4915411019B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A6C10E-3474-41DC-85CB-A4915411019B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A6C10E-3474-41DC-85CB-A4915411019B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A6C10E-3474-41DC-85CB-A4915411019B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12F38B4-7E9F-4A27-835A-394E439A6F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12F38B4-7E9F-4A27-835A-394E439A6F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12F38B4-7E9F-4A27-835A-394E439A6F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12F38B4-7E9F-4A27-835A-394E439A6F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7A3E15-7619-46B5-86BC-5F2C55CBEB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7A3E15-7619-46B5-86BC-5F2C55CBEB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7A3E15-7619-46B5-86BC-5F2C55CBEB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7A3E15-7619-46B5-86BC-5F2C55CBEB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9716F3F0-1A6F-48F1-B7A0-BBE60E63573B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9716F3F0-1A6F-48F1-B7A0-BBE60E63573B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9716F3F0-1A6F-48F1-B7A0-BBE60E63573B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9716F3F0-1A6F-48F1-B7A0-BBE60E63573B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1A9C59-0E7C-40B6-8C6F-0FA40DF6EEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1A9C59-0E7C-40B6-8C6F-0FA40DF6EEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1A9C59-0E7C-40B6-8C6F-0FA40DF6EEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1A9C59-0E7C-40B6-8C6F-0FA40DF6EEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD0A5E31-B410-4DAA-8E67-8F1F660D1DF0}
+	EndGlobalSection
+EndGlobal

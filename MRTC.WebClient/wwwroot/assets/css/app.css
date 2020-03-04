@@ -1,0 +1,80 @@
+#grid-parent{
+    background-color: white;
+    padding-left: 50px;
+}
+#grid {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-top: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    background-color: white;
+}
+#grid .row {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+#grid .cell {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-left: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+#grid .cell-coordinates {
+    opacity: .5;
+    position: absolute;
+    top: 1;
+    left: 1;
+    font-size: 10px;
+}
+#grid .rover {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    border: 0;
+}
+
+#grid .rover-N {
+    -ms-transform: rotate(0deg); /* IE 9 */
+      transform: rotate(0deg);
+}
+
+#grid .rover-E {
+    -ms-transform: rotate(90deg); /* IE 9 */
+      transform: rotate(90deg);
+}
+
+#grid .rover-S {
+    -ms-transform: rotate(180deg); /* IE 9 */
+      transform: rotate(180deg);
+}
+
+#grid .rover-W {
+    -ms-transform: rotate(270deg); /* IE 9 */
+      transform: rotate(270deg);
+}
+
+#grid .rover-initial {
+    opacity: .25;
+}
+
+md-sidenav {
+    padding: 5px;
+    width: 400px;
+}
+
+.btn-send{
+    width: 100px;
+    margin-left: 0px;
+}
+
+.app-title {
+    margin-left: 15px;
+}
