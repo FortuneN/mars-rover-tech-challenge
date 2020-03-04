@@ -72,7 +72,7 @@ This solution addresses the challenge specified above in 5 projects:
   
   Runs on `localhost:5555`
   
-  Connect with telnet client. Telnet client can connect if this is running.
+  Connect with telnet client. Telnet client can connect if this is running. Usage instructions are presented on connection.
 
 - **MRTC.RestApiServer (mrtc-web-api.exe)**
 
