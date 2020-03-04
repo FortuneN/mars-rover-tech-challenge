@@ -50,15 +50,15 @@ MMRMMRMRRM
 
 This solution addresses the challenge specified above in 5 projects:
 
-- MRTC.Library (MRTC.Library.dll)
+- **MRTC.Library (MRTC.Library.dll)**
   
   The core library with the business logic. The library can be included in many types of projects to suite any architecture.
   
-- MRTC.Library.Tests
+- **MRTC.Library.Tests**
 
   Unit tests for the library
   
-- MRTC.CommandLineInterface (mrtc-cli.exe)
+- **MRTC.CommandLineInterface (mrtc-cli.exe)**
 
   A command line utility that wraps the core library and presents a command line oriented user interface.
   
@@ -66,7 +66,7 @@ This solution addresses the challenge specified above in 5 projects:
   
   Use `mrtc-cli -h` option for help 
 
-- MRTC.TelnetServer (mrtc-telnet-server.exe)
+- **MRTC.TelnetServer (mrtc-telnet-server.exe)**
 
   A telnet server that wraps the core library and presents a telnet protocol user interface
   
@@ -74,7 +74,7 @@ This solution addresses the challenge specified above in 5 projects:
   
   Connect with telnet client. Telnet client can connect if this is running.
 
-- MRTC.RestApiServer (mrtc-web-api.exe)
+- **MRTC.RestApiServer (mrtc-web-api.exe)**
 
   A web server that wraps the core library and presents an HTTP REST oriented application programming interface.
   
@@ -83,7 +83,7 @@ This solution addresses the challenge specified above in 5 projects:
   Has 2 endpoints `/textInput` and `/fileInput`; Both accept HTTP POST only.
   
   
-- MRTC.WebClient (mrtc-web-client.exe)
+- **MRTC.WebClient (mrtc-web-client.exe)**
 
   A web server that presents a user friendly graphical user interface which interfaces with the REST API to make use on the features provided in the core library
   
