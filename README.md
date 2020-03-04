@@ -102,5 +102,6 @@ You can run each by simply double-clicking.
 No authentication is required.
 
 ### Requirements
+- Windows 8+
 - .Net Framework 4.8 (dotnet-framework-installer-48.exe)
 - .Net Core 3.0 (dotnet-runtime-3.0.0-win-x64.exe + aspnetcore-runtime-3.0.0-win-x64.exe + windowsdesktop-runtime-3.0.0-win-x64.exe)
