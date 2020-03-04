@@ -101,6 +101,12 @@ You can run each by simply double-clicking.
 
 No authentication is required.
 
+You can specify any number of rovers.
+
+You can specify any plateau dimensions.
+
+You CANNOT run a rover off the plateau.
+
 ### Requirements
 - Windows 8+
 - .Net Framework 4.8 (dotnet-framework-installer-48.exe)
