@@ -90,7 +90,7 @@ This solution addresses the challenge specified above in 5 projects:
   
 ## Running the solution
 
-Go to [releases](https://github.com/FortuneN/mars-rover-tech-challenge/releases) and download the latest zip file and extract
+Go to [releases](https://github.com/FortuneN/mars-rover-tech-challenge/releases) and download the latest Binaries.zip file and extract
 
 The zip file contains the items described above.
 
