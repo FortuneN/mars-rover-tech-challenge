@@ -48,7 +48,7 @@ MMRMMRMRRM
 
 ## Solution
 
-This solution addresses the challenge specified above in 5 projects:
+This solution addresses the challenge specified above in 6 projects:
 
 - **MRTC.Library (MRTC.Library.dll)**
   
@@ -85,7 +85,7 @@ This solution addresses the challenge specified above in 5 projects:
   
 - **MRTC.WebClient (mrtc-web-client.exe)**
 
-  A web server that presents a user friendly graphical user interface which interfaces with the REST API to make use on the features provided in the core library
+  A web server that presents a user friendly graphical user interface which interfaces with the REST API to make use of the features provided in the core library
   
   Runs on `http://localhost:8888`
   
